@@ -1,386 +1,278 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
-	<title>Nghi Nguyen Website</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-			<a class="navbar-brand" href="index.html">Nghi's Portfolio</a>
-			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav nav ml-auto">
-				<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-				<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Experiences</span></a></li>
-				<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
-				<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-				<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-				</ul>
-			</div>
-	    </div>
-	</nav>
 
-    <section class="ftco-about img ftco-section ftco-no-pb" id="home-section">
-    	<div class="container">
-    		<div class="row d-flex">
-    			<div class="col-md-6 col-lg-5 d-flex">
-    				<div class="img-about img d-flex align-items-stretch">
-    					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/AboutNghi.jpg);">
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-    				<div class="row justify-content-start pb-3">
-		          <div class="col-md-12 heading-section ftco-animate">
-		            <h3 style="color: #ffbd39;">Hello!</h3>
-					<h2 class="mb-4"> I'm Nghi Nguyen</h2>
-		            <p>Passionate software engineer with hands-on experience developing strategy games, intuitive video platforms, 
-						and robust full-stack websites, with a solid understanding of network protocols and a focus on delivering high-performance solutions.</p>
-					<p>B.S in Computer Science - San Francisco State University</p>
-		            <ul class="about-info mt-4 px-md-0 px-2">
-		            	<li class="d-flex"><span>Name:</span> <span> Nghi Nguyen</span></li>
-		            	<li class="d-flex"><span>Email:</span> <span class="no-link"><a href="mailto:nghin.contact@gmail.com">nghin.contact@gmail.com</a></span></li>
-    					<li class="d-flex"><span>LinkedIn:</span> <span class="no-link"><a href="https://www.linkedin.com/in/nghi-x-nguyen/" target="_blank">nghi-x-nguyen</a></span></li>
-    					<li class="d-flex"><span>GitHub:</span> <span class="no-link"><a href="https://github.com/nghixnguyen" target="_blank">nghixnguyen</a></span></li>
-		            </ul>
-		          </div>
-		        </div>
-	          <div class="about-info ftco-animate d-flex mt-md-3">
-              <div class="text">
-                <p><a href="images/Nghi_Nguyen_Resume.pdf" class="btn btn-primary py-3 px-3">Download CV</a></p>
-              </div>
-	          </div>
-	        </div>
+  <body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Nghi <span>Nguyen</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#experience">Experiences</a>
+            <a href="#skill">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="images/about.jpg" alt="picture of Nghi Nguyen">
         </div>
-    	</div>
-    </section>
-
-    <section class="ftco-section ftco-no-pb" id="resume-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Experiences</h2>
+        <div class="home-content">
+            <h1>Hi, It's <br><span>Nghi Nguyen</span></h1>
+            <p>Passionate software engineer with hands-on 
+                experience developing strategy games, intuitive 
+                video platforms, and robust full-stack websites, 
+                with a solid understanding of network protocols and 
+                a focus on delivering high-performance solutions.</p>
+            <ul class="home-info">
+                <li><span>Education:</span> <span>B.S in Computer Science</span></li>
+                <li><span>Email:</span> <span class="no-link"><a href="mailto:nghin.contact@gmail.com">nghin.contact@gmail.com</a></span></li>
+                <li><span>LinkedIn:</span> <span class="no-link"><a href="https://www.linkedin.com/in/nghi-x-nguyen/" target="_blank">nghi-x-nguyen</a></span></li>
+                <li><span>GitHub:</span> <span class="no-link"><a href="https://github.com/nghixnguyen" target="_blank">nghixnguyen</a></span></li>
+            </ul>
+            <div class="btn-group">
+              <a href="images/Nghi_Nguyen_Resume.pdf" class="btn" target="_blank">Download CV</a>
           </div>
         </div>
-    		<div class="row">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">Jan 2024 - Present</span>
-    					<h2>San Francisco State University</h2>
-    					<span class="position">Teaching Assistant</span>
-    					<p class="mt-4">
-							<ul>
-								<li>Hosted weekly 3-hour sessions for 11 students to understand loops, if-else algorithms, classes and objects in Java</li>
-								<li>Ensured all students excelled in their coursework by offering help and constructive feedback on programming skills</li>
-								<li>100% of students passed the class, with 64% attaining an A through my interactive lessons and personalized support</li>
-							</ul>
-						</p>
-    				</div>
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">Sep 2023 - Feb 2024</span>
-    					<h2>Dazzle Studio</h2>
-    					<span class="position">Front-End Developer</span>
-    					<p class="mt-4">
-							<ul>
-								<li>Developed responsive web application for beauty salon to showcase services and information, using HTML, JavaScript, and jQuery</li>
-								<li>Enhance user experience for purchasing online gift cards, resulting in a 50% increase in gift card purchases</li>
-								<li>Maintained and updated website using object-oriented programming techniques to ensure optimal performance and user satisfaction</li>
-							</ul>
-						</p>
-    				</div>
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">May 2020 - Jan 2023</span>
-    					<h2>Customer Service Supervisor</h2>
-    					<span class="position">Marshall Retail Group</span>
-    					<p class="mt-4">
-							<ul>
-								<li>Attended to customers' inquiries about their purchases, sold store products and services while also maintaining the sales floor's cleanliness, products, and displays</li>
-								<li>Assigned to be Session Sale Leader about 18 times per month, guiding and supporting the team member to achieve the company's sales goals </li>
-								<li>According to the weekly summary, the sales goal achievement rate is 70%</li>
-							</ul>
-						</p>
-    				</div>
-    		</div>
-    		<div class="row justify-content-center mt-5">
-    			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="images/Nghi_Nguyen_Resume.pdf" class="btn btn-primary py-4 px-5" download="Nghi_Nguyen_Resume.pdf">Download CV</a></p>
-    			</div>
-    		</div>
-    	</div>
-    </section>
- 
-
-    <section class="ftco-section ftco-project" id="skills-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
-				<div class="col-md-12 heading-section text-center ftco-animate">
-				<h2 class="mb-4">Skills</h2>
-				</div>
-        	</div>
-    		<div class="row">
-    			<div class="col-md-5">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/skill-1.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<ul><li><h3>Languages</h3></li></ul>
-	    					<span>
-								<ul>
-									<li>Java</li>
-									<li>JavaScript</li>
-									<li>C/C++</li>
-									<li>C#</li>
-									<li>Python</li>
-									<li>HTML</li>
-									<li>CSS</li>
-									<li>SQL</li>
-								</ul>
-							</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-7">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/skill-2.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<ul><li><h3>Frameworks &amp; Libraries</h3></li></ul>
-	    					<span>
-								<ul>
-									<li>mySQL</li>
-									<li>jQuery</li>
-									<li>React</li>
-									<li>Node.js</li>
-									<li>Express.js</li>
-									<li>AWS</li>
-									<li>RESTful</li>
-									<li>JSON</li>
-								</ul>
-							</span>
-	    				</div>
-    				</div>
-  				</div>
-			</div>
-			<div class="row">
-    			<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/skill-3.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<ul><li><h3>Platforms</h3></li></ul>
-	    					<span>
-								<ul>
-									<li>Intellij</li>
-									<li>VS Code</li>
-									<li>Eclipse</li>
-									<li>Git</li>
-									<li>Windows</li>
-									<li>PeopleSoft</li>
-									<li>mySQL Workbench</li>
-									<li>VirtualBox</li>
-									<li>Unix/Linux</li>
-									<li>Ubuntu</li>
-									<li>wireshark</li>
-								</ul>
-							</span>
-	    				</div>
-    				</div>
-				</div>
-    			<div class="col-md-4">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/skill-4.jpg);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<ul><li><h3>Internet</h3></li></ul>
-							<span>
-								<ul>
-									<li>HTTP</li>
-									<li>SSL</li>
-									<li>Dynamic HTML</li>
-									<li>XHTML</li>
-								</ul>
-							</span>
-						</div>
-					</div>
-	    		</div>
-    		</div>
-    	</div>
     </section>
 
+    <section class="experience" id="experience">
+      <h2 class="heading">Experiences</h2>
+      <div class="timeline-items">
 
-    <section class="ftco-section" id="projects-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Projects</h2>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jan 2024 - Present</div>
+          <div class="timeline-content">
+            <p>Teaching Assistant</p>
+            <h2>San Francisco State University</h2>
+            <ul>
+              <li>Hosted weekly 3-hour sessions for 11 students to understand loops, if-else algorithms, classes and objects in Java</li>
+              <li>Ensured all students excelled in their coursework by offering help and constructive feedback on programming skills</li>
+              <li>100% of students passed the class, with 64% attaining an A through my interactive lessons and personalized support</li>
+            </ul>
           </div>
         </div>
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="tank-game.html" class="block-20" style="background-image: url('images/battle.png');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-                <h3 class="heading"><a href="tank-game.html">Tank Battle Game</a></h3>
-                <ul class="categories brief">
-					<li>Java </li>
-					<li>Java Swing</li>
-					<li>Java OOP</li>
-					<li>CardLayout-based</li>
-				  </ul>
-              </div>
-            </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Sep 2023 - Feb 2024</div>
+          <div class="timeline-content">
+            <p>Front-End Developer</p>
+            <h2>Dazzle Studio</h2>
+            <ul>
+              <li>Developed responsive web application for beauty salon to showcase services and information, using HTML, JavaScript, and jQuery</li>
+              <li>Enhance user experience for purchasing online gift cards, resulting in a 50% increase in gift card purchases</li>
+              <li>Maintained and updated website using object-oriented programming techniques to ensure optimal performance and user satisfaction</li>
+            </ul>
+          </div> 
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">May 2022 - Jan 2023</div>
+          <div class="timeline-content">
+            <p>Customer Service Supervisor</p>
+            <h2>Marshall Retail Group</h2>
+            <ul>
+              <li>Attended to customers' inquiries about their purchases, sold store products and services while also maintaining the sales floor's cleanliness, products, and displays</li>
+              <li>Assigned to be Session Sale Leader about 18 times per month, guiding and supporting the team member to achieve the company's sales goals </li>
+              <li>According to the weekly summary, the sales goal achievement rate is 70%</li>
+            </ul>
           </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="vid-web.html" class="block-20" style="background-image: url('images/vid-web.png');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-                <h3 class="heading"><a href="vid-web.html">Full-Stack Web Application </a></h3>
-                <ul class="categories brief">
-					<li>HTML </li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>jQuery</li>
-					<li>Express.js</li>
-					<li>Node.js</li>
-					<li>MySQL</li>
-					<li>JSON</li>
-					<li>bcrypt</li>
-				</ul>
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="images/Nghi_Nguyen_Resume.pdf" class="btn" target="_blank">Download CV</a>
+      </div>
+    </section>
+
+    <section class="skill" id="skill">
+      <h2 class="heading"> Skills</h2>
+
+      <div class="skill-container">
+        <div class="skill-box">
+          <div class="skill-info">
+            <i class='bx bx-code-alt skill-icon'></i>
+            <h4>Languages</h4>
+              <ul>
+                  <li>Java</li>
+                  <li>JavaScript</li>
+                  <li>C/C++</li>
+                  <li>C#</li>
+                  <li>Python</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>SQL</li>
+              </ul>
           </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="social-media.html" class="block-20" style="background-image: url('images/social-med.png');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-                <h3 class="heading"><a href="social-media.html">Social Media Web Application</a></h3>
-                <ul class="categories brief">
-					<li>HTML </li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>React</li>
-					<li>Node.js</li>
-					<li>jQuery</li>
-					<li>AWS</li>
-					<li>MySQL</li>
-					<li>RESTful API</li>
-					<li>Agile/Scrum</li>
-					<li>Postman</li>
-					<li>Test-driven</li>
-				  </ul>
-              </div>
-            </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-info">
+            <i class='bx bx-library skill-icon'></i>
+            <h4>Frameworks &amp; Libraries</h4>
+              <ul>
+                  <li>mySQL</li>
+                  <li>jQuery</li>
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>AWS</li>
+                  <li>RESTful</li>
+                  <li>JSON</li>
+              </ul>
           </div>
-		  <div class="col-md-4 d-flex ftco-animate">
-			<div class="blog-entry">
-			<a href="discord-bot.html" class="block-20" style="background-image: url('images/dicord-bot.png');">
-			</a>
-			<div class="text mt-3 float-right d-block">
-			  <h3 class="heading"><a href="discord-bot.html">Discord Bot Management for Manufacture</a></h3>
-			  <ul class="categories brief">
-				<li>Python </li>
-				<li>AWS RDS</li>
-				<li>MySQL</li>
-				<li>JSON</li>
-				<li>bcrypt</li>
-			  </ul>
-			</div>
-		  </div>
-		</div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-info">
+            <i class='bx bx-desktop skill-icon'></i>
+            <h4>Platforms</h4>
+              <ul>
+                  <li>Intellij</li>
+                  <li>VS Code</li>
+                  <li>Eclipse</li>
+                  <li>Git</li>
+                  <li>mySQL Workbench</li>
+                  <li>VirtualBox</li>
+                  <li>Unix/Linux</li>
+                  <li>Ubuntu</li>
+                  <li>wireshark</li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-info">
+            <i class='bx bx-wifi skill-icon'></i>
+            <h4>Internet</h4>
+              <ul>
+                  <li>HTTP</li>
+                  <li>SSL</li>
+                  <li>Dynamic HTML</li>
+                  <li>XHTML</li>
+              </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Contact Me</h2>
-          </div>
+    <section class="project" id="project">
+      <h2 class="heading">Projects</h2>
+      <div class="project-box">
+        <div class="project-card">
+          <img src="images/tank_2.jpg" alt="">
+          <h3>Tank Battle Game</h3>
+          <ul>
+            <li>Java </li>
+            <li>Java Swing</li>
+            <li>Java OOP</li>
+            <li>CardLayout-based</li>
+          </ul>
+          <a href="tank-game.html" class="btn" target="_blank">View Project</a>
         </div>
 
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-linkedin"></span>
-          		</div>
-          		<h3 class="mb-4">LinkedIn</h3>
-	            <p><a href="https://www.linkedin.com/in/nghi-x-nguyen/"target="_blank">linkedin.com/in/<br>nghi-x-nguyen</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-github"></span>
-          		</div>
-          		<h3 class="mb-4">GitHub</h3>
-				<p><a href="https://github.com/nghixnguyen"target="_blank">github.com/nghixnguyen</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:nghin.contact@gmail.com">nghin.contact@gmail.com</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<h3 class="mb-4">Website</h3>
-	            <p><a href="#">yoursite.com</a></p>
-	          </div>
-          </div>
+        <div class="project-card">
+          <img src="images/discord.jpg" alt="">
+          <h3>Discord Bot Management</h3>
+          <ul>
+            <li>Python</li>
+            <li>AWS RDS</li>
+            <li>MySQL</li>
+            <li>JSON</li>
+            <li>bcrypt</li>
+          </ul>
+          <a href="discord-bot.html" class="btn" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="images/video.jpg" alt="">
+          <h3>Full-Stack Web Application</h3>
+          <ul>
+            <li>HTML </li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Express.js</li>
+            <li>Node.js</li>
+            <li>MySQL</li>
+            <li>JSON</li>
+            <li>bcrypt</li>
+          </ul>
+          <a href="vid-web.html" class="btn" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="images/social-med2.png" alt="">
+          <h3>Social Media Web Application</h3>
+          <ul>
+            <li>HTML </li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>jQuery</li>
+            <li>AWS</li>
+            <li>MySQL</li>
+            <li>RESTful API</li>
+            <li>Agile/Scrum</li>
+            <li>Postman</li>
+            <li>Test-driven</li>
+          </ul>
+          <a href="social-web.html" class="btn" target="_blank">View Project</a>
         </div>
       </div>
-    </section>  
-  
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
+    </section>
     
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <div class="contact-box">
+        <div class="contact-card">
+            <a href="https://www.linkedin.com/in/nghi-x-nguyen/" target="_blank" class="contact-link">
+                <i class='bx bxl-linkedin contact-icon' ></i>
+                <h3>LinkedIn</h3>
+                <p>linkedin.com/in/<br>nghi-x-nguyen</p>
+            </a>
+        </div>
+        <div class="contact-card">
+            <a href="https://github.com/nghixnguyen" target="_blank" class="contact-link">
+                <i class='bx bxl-github contact-icon' ></i>
+                <h3>GitHub</h3>
+                <p>github.com/nghixnguyen</p>
+            </a>
+        </div>
+        <div class="contact-card">
+            <a href="mailto:nghin.contact@gmail.com" target="_blank" class="contact-link">
+                <i class='bx bx-envelope contact-icon' ></i>
+                <h3>Email</h3>
+                <p>nghin.contact@gmail.com</p>
+            </a>
+        </div>
+        <div class="contact-card">
+            <a href="https://nghixnguyen.github.io/" target="_blank" class="contact-link">
+                <i class='bx bx-globe contact-icon' ></i>
+                <h3>Website</h3>
+                <p>nghixnguyen.github.io</p>
+            </a>
+        </div>
+    </div>
+    </section>
+
+    <script src="script.js"></script>
+
   </body>
 </html>
