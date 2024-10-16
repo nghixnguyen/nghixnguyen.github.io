@@ -1,156 +1,89 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Nghi's Project Tank Game</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-        <a class="navbar-brand" href="index.html">Nghi's Portfolio</a>
-        <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="oi oi-menu"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link"><span>Home</span></a></li>
-          <li class="nav-item"><a href="index.html#resume-section" class="nav-link"><span>Experiences</span></a></li>
-          <li class="nav-item"><a href="index.html#skills-section" class="nav-link"><span>Skills</span></a></li>
-          <li class="nav-item"><a href="index.html#projects-section" class="nav-link"><span>Projects</span></a></li>
-          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-          </ul>
-        </div>
-	    </div>
-	  </nav>
 
-    <section class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
-            <div class="col-md-12 ftco-animate pb-3 mb-3 text-center">
-              <h1 class="mb-3 bread">Tank Game</h1>
-              <p class="breadcrumbs"><span class="mr-2"><a href="index.html#projects-section">Projects by nghi <i class="ion-ios-arrow-forward"></i></a></span></p>
-            </div>
-          </div>
-        </div>
-      </section>
+  <body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Nghi <span>Nguyen</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="index.html#experience">Experiences</a>
+            <a href="index.html#skill">Skills</a>
+            <a href="index.html#project">Projects</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
 
-      <section class="ftco-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 ftco-animate">
-              <p class="mb-3 mt-4 bigger-text">
-                Developed a two-player tank battle game with Java programming and Java Swing, showcasing proficiency in object-oriented programming (OOP) by implementing separate classes for core game mechanics including tank movement, collision detection, animations, and sounds</p>
-              <p class="mb-3 mt-4 bigger-text">
-                Optimized abstract classes and interfaces to reduce more than 50% risk of class pollution</p>
-              <p class="mb-3 mt-4 bigger-text">
-                Created user interface (UI) with CardLayout-based panels for gameplay screens, enhancing responsive and interactive user experiences</p>
-              <p>
-                <img src="images/image_3.jpg" alt="" class="img-fluid">
-              </p>  
-            </div> <!-- .col-md-8 --> 
-            <div class="col-lg-4 sidebar ftco-animate">
-              <div class="sidebar-box ftco-animate">
-                <h3 class="heading-sidebar">Technologies</h3>                
-                <ul class="categories">
-                  <li>Java </li>
-                  <li>Java Swing</li>
-                  <li>Java OOP</li>
-                  <li>CardLayout-based</li>
+    <section class="blog" id="blog">
+        <h2 class="heading">Tank Game</h2>
+        <div class="blog-container">
+            <div class="blog-content">
+                <ul>
+                    <li>Developed a two-player tank battle game with Java programming and Java Swing, showcasing proficiency in object-oriented programming (OOP) by implementing separate classes for core game mechanics including tank movement, collision detection, animations, and sounds</li>
+                    <li>Optimized abstract classes and interfaces to reduce more than 50% risk of class pollution</li>
+                    <li>Created user interface (UI) with CardLayout-based panels for gameplay screens, enhancing responsive and interactive user experiences</li>
                 </ul>
-              </div>
+                <img src="images/battle.png" alt="" class="blog-img">
             </div>
-          </div>
+            <div class="blog-category">
+                <p>Technologies</p>
+                <ul class="categories">
+                    <li>Java </li>
+                    <li>Java Swing</li>
+                    <li>Java OOP</li>
+                    <li>CardLayout-based</li>
+                </ul>
+            </div>
         </div>
-      </section>
+    </section>
 
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-        <div class="container">
-            <div class="row justify-content-center mb-5 pb-3">
-            <div class="col-md-7 heading-section text-center ftco-animate">
-              <h2 class="mb-4">Contact Me</h2>
-            </div>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-box">
+          <div class="contact-card">
+              <a href="https://www.linkedin.com/in/nghi-x-nguyen/" target="_blank" class="contact-link">
+                  <i class='bx bxl-linkedin contact-icon' ></i>
+                  <h3>LinkedIn</h3>
+                  <p>linkedin.com/in/<br>nghi-x-nguyen</p>
+              </a>
           </div>
-  
-          <div class="row d-flex contact-info mb-5">
-            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div class="align-self-stretch box p-4 text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="icon-linkedin"></span>
-                    </div>
-                    <h3 class="mb-4">LinkedIn</h3>
-                  <p><a href="https://www.linkedin.com/in/nghi-x-nguyen/"target="_blank">linkedin.com/in/<br>nghi-x-nguyen</a></p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div class="align-self-stretch box p-4 text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="icon-github"></span>
-                    </div>
-                    <h3 class="mb-4">GitHub</h3>
-                  <p><a href="https://github.com/nghixnguyen"target="_blank">github.com/nghixnguyen</a></p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div class="align-self-stretch box p-4 text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="icon-paper-plane"></span>
-                    </div>
-                    <h3 class="mb-4">Email Address</h3>
-                  <p><a href="mailto:nghin.contact@gmail.com">nghin.contact@gmail.com</a></p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div class="align-self-stretch box p-4 text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="icon-globe"></span>
-                    </div>
-                    <h3 class="mb-4">Website</h3>
-                  <p><a href="#">yoursite.com</a></p>
-                </div>
-            </div>
+          <div class="contact-card">
+              <a href="https://github.com/nghixnguyen" target="_blank" class="contact-link">
+                  <i class='bx bxl-github contact-icon' ></i>
+                  <h3>GitHub</h3>
+                  <p>github.com/nghixnguyen</p>
+              </a>
+          </div>
+          <div class="contact-card">
+              <a href="mailto:nghin.contact@gmail.com" target="_blank" class="contact-link">
+                  <i class='bx bx-envelope contact-icon' ></i>
+                  <h3>Email</h3>
+                  <p>nghin.contact@gmail.com</p>
+              </a>
+          </div>
+          <div class="contact-card">
+              <a href="https://nghixnguyen.github.io/" target="_blank" class="contact-link">
+                  <i class='bx bx-globe contact-icon' ></i>
+                  <h3>Website</h3>
+                  <p>nghixnguyen.github.io</p>
+              </a>
           </div>
         </div>
-      </section>  
-    
-  
-    <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-  
-  
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
-    
-    <script src="js/main.js"></script>
-      
+    </section>
+
+    <script src="script.js"></script>
+
   </body>
 </html>
